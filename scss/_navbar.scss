@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  background-color: #191c1c;
+}
+
+.logo{
+  width: 100%;
+  padding-left: 1rem;
+  font-size: 130%;
+  color: white;
+}
+.menu{
+  width: 100%;
+  text-align: right;
+  padding-right: 1rem;
+  padding-top: 5px;
+}
+
+.menu a{
+  text-decoration: none;
+  padding: 0 7px 0 7px;
+  font-size: 80%;
+  color: rgb(189, 189, 189);
+  transition: .2s;
+}
+
+.menu a:hover{
+  color: white;
+}

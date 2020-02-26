@@ -1,0 +1,201 @@
+/** ==== FONTS / Typography====**/
+/** ==== COLORS ====**/
+.purple {
+  color: #7c6ce3;
+}
+
+/** ====  ====**/
+.full-width {
+  width: 100%;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font: 100% "Lato", Helvetica, sans-serif;
+  background-color: #ededed;
+}
+
+* {
+  color: #333447;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #e1e1e1;
+  border: none;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  font-size: 80%;
+  border: 1px solid #dfdfdf;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.btn:active {
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.btn-primary {
+  background-color: #007cff;
+  color: white;
+}
+
+.btn-success {
+  background-color: #43a435;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #c45151;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #d98b47;
+  color: white;
+}
+
+.btn-info {
+  background-color: #d5db26;
+  color: white;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.section {
+  margin: 25px 0 55px 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 9px 15px 9px 15px;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  padding-top: 9px;
+  font-size: 90%;
+  padding-bottom: 5px;
+}
+
+.title {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 33px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  line-height: 1;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+nav {
+  display: flex;
+  background-color: #191c1c;
+}
+
+.logo {
+  width: 100%;
+  padding-left: 1rem;
+  font-size: 130%;
+  color: white;
+}
+
+.menu {
+  width: 100%;
+  text-align: right;
+  padding-right: 1rem;
+  padding-top: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 0 7px 0 7px;
+  font-size: 80%;
+  color: #bdbdbd;
+  transition: 0.2s;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.input {
+  font-size: 100%;
+  border-radius: 5px;
+  border: 1px solid #d8d4d4;
+  padding-left: 7px;
+}
+
+input:focus {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.194);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+/** ==== FONTS / Typography====**/
+$font-main: 'Lato', Helvetica, sans-serif;
+$title-size: 33px;
+$subtitle-size: 22px;
+
+/** ==== COLORS ====**/
+$font-color: rgb(51, 52, 71);
+// theme colors
+$light-gray: #ededed;
+$purple: rgb(124, 108, 227);
+
+// To be removed
+.purple{
+  color: rgb(124, 108, 227);
+}
+
+// basic colors
+$primary: #007cff;
+$success: #43a435;
+$danger: #c45151;
+$warning: #d98b47;
+$info: #d5db26;
+
+$colors-list:(
+  primary: $primary,
+  success: $success,
+  danger: $danger,
+  warning: $warning,
+  info: $info,
+);
+
+/** ====  ====**/

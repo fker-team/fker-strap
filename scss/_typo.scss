@@ -1,0 +1,49 @@
+.title{
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: $title-size;
+  margin-bottom: 5px;
+}
+
+.subtitle{
+  line-height: 1;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: $subtitle-size;
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
