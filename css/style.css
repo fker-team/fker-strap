@@ -72,6 +72,12 @@ html body {
   color: white;
 }
 
+.loader > i {
+  padding: 5px 5px;
+  /* Some padding */
+  color: white;
+}
+
 *,
 *:after,
 *:before {
@@ -196,6 +202,17 @@ nav {
 
 input:focus {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.194);
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 100%;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
