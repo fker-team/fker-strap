@@ -9,6 +9,8 @@ nav {
   font-size: 130%;
   color: white;
 }
+
+// menu big screen
 .menu{
   width: 100%;
   text-align: right;
@@ -26,4 +28,36 @@ nav {
 
 .menu a:hover{
   color: white;
+}
+
+// Mobile menu
+.menu-mobile{
+  display: none;
+}
+.menu-mobile i{
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    .menu {
+      display: none;
+    }
+
+    .menu-mobile {
+      display: block;
+      margin-right: 20px;
+      padding-top: 5px;
+    }
+
+    .menu-mobile:hover i{
+      cursor: pointer;
+      color: $purple;
+    }
+
+    .menu-mobile:active i{
+      opacity: 0.8;
+      transition: .1s;
+    }
+  }
 }
