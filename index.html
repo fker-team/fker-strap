@@ -25,6 +25,10 @@
       <a href="#">Link 3</a>
       <a href="#">Link 4</a>
     </div>
+
+    <div class="menu-mobile">
+      <i class="fa fa-bars"></i>
+    </div>
   </nav>
 
   <div class="container">
@@ -48,6 +52,10 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eligendi? Nisi sit, minus placeat fugiat
           necessitatibus laborum aspernatur et sequi repudiandae rem eligendi veritatis qui quia eaque accusamus odio
           fugit?
+        </div>
+        <div class="card-options text-right">
+          <button class="btn">cancel</button>
+          <button class="btn btn-primary">Confirm</button>
         </div>
       </div>
     </div>
@@ -88,7 +96,37 @@
       </div>
     </div>
 
+    <div class="section">
+      <h1 class="title"><span class="purple">#</span> Modal</h1>
+      <h2 class="subtitle">Easy Modal</h2>
+      <div class="text-center">
+        <button class="btn" onclick="openModal()" id="open-modal">Open Modal</button>
+      </div>
+
+
+      <div class="modal" id="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-header">Header Modal</div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quo, quae iure ex
+          aliquam iste, dolorum placeat possimus eligendi voluptatum laborum! Ipsam sit voluptates inventore fugit
+          doloremque sequi vel veniam.</div>
+      </div>
+    </div>
   </div>
+
+  <script>
+    // open modal
+    const openModal = () => {
+      document.getElementById('modal').style.display = "block";
+    }
+    const closeModal = () => {
+      document.getElementById('modal').style.display = "none";
+    }
+  </script>
+
+
 </body>
+
 
 </html>
