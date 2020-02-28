@@ -195,6 +195,14 @@ html body {
   padding-bottom: 5px;
 }
 
+.card-options {
+  border-top: 1px solid #e8e8e8;
+  position: relative;
+  bottom: 0;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
 .title {
   line-height: 1.5;
   margin-top: 5px;
@@ -306,6 +314,32 @@ nav {
   color: white;
 }
 
+.menu-mobile {
+  display: none;
+}
+
+.menu-mobile i {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body .menu {
+    display: none;
+  }
+  body .menu-mobile {
+    display: block;
+    margin-right: 20px;
+    padding-top: 5px;
+  }
+  body .menu-mobile:hover i {
+    cursor: pointer;
+    color: #7c6ce3;
+  }
+  body .menu-mobile:active i {
+    opacity: 0.8;
+    transition: 0.1s;
+  }
+}
 .input {
   font-size: 100%;
   border-radius: 5px;
@@ -326,6 +360,26 @@ textarea {
   box-shadow: none;
   font-size: 100%;
   border-radius: 5px;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  display: none;
+}
+
+.modal-body {
+  margin-top: 15px;
+}
+
+.modal .close {
+  float: right;
+}
+
+.modal .close:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=style.css.map */
