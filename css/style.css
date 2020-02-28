@@ -72,7 +72,7 @@ html body {
   color: white;
 }
 
-.loader > i {
+.loading > i {
   padding: 5px 5px;
   /* Some padding */
   color: white;
@@ -97,6 +97,89 @@ html body {
 
 .section {
   margin: 25px 0 55px 0;
+}
+
+.row:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.row + .row {
+  margin-top: 1%;
+}
+
+[class^=col-] {
+  float: left;
+  margin-right: 1%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[class^=col-]:last-child {
+  margin-right: 0%;
+}
+
+/*
+.col-1 { width:5.583333333333333%; }
+.col-2 { width:14.16666666666667%; }
+.col-3 { width:22.75%; }
+.col-4 { width:31.33333333333333%; }
+.col-5 { width:39.91666666666667%; }
+.col-6 { width:48.5%; }
+.col-7 { width:57.08333333333333%; }
+.col-8 { width:65.66666666666666%; }
+.col-9 { width:74.25%; }
+.col-10 { width:82.83333333333333%; }
+.col-11 { width:91.41666666666666%; }
+.col-12 { width:100%; }
+*/
+.col-1 {
+  width: 7.4166666667%;
+}
+
+.col-2 {
+  width: 15.8333333333%;
+}
+
+.col-3 {
+  width: 24.25%;
+}
+
+.col-4 {
+  width: 32.6666666667%;
+}
+
+.col-5 {
+  width: 41.0833333333%;
+}
+
+.col-6 {
+  width: 49.5%;
+}
+
+.col-7 {
+  width: 57.9166666667%;
+}
+
+.col-8 {
+  width: 66.3333333333%;
+}
+
+.col-9 {
+  width: 74.75%;
+}
+
+.col-10 {
+  width: 83.1666666667%;
+}
+
+.col-11 {
+  width: 91.5833333333%;
+}
+
+.col-12 {
+  width: 100%;
 }
 
 .card {
@@ -144,6 +227,36 @@ html body {
   font-weight: 700;
 }
 
+/** Text sizing **/
+.size-1 {
+  font-size: 3rem;
+}
+
+.size-2 {
+  font-size: 2.5rem;
+}
+
+.size-3 {
+  font-size: 2rem;
+}
+
+.size-4 {
+  font-size: 1.5rem;
+}
+
+.size-5 {
+  font-size: 1.25rem;
+}
+
+.size-6 {
+  font-size: 1rem;
+}
+
+.size-7 {
+  font-size: 0.75rem;
+}
+
+/** Text position **/
 .text-left {
   text-align: left;
 }
