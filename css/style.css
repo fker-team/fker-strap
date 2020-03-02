@@ -1,13 +1,63 @@
 @charset "UTF-8";
 /** ==== FONTS / Typography====**/
-/** ==== COLORS ====**/
-.purple {
-  color: #7c6ce3;
-}
-
 /** ====  MIXINS ====**/
+/** ==== COLORS ====**/
 .full-width {
   width: 100%;
+}
+
+.background-primary {
+  background-color: #007cff !important;
+  color: white !important;
+}
+
+.background-success {
+  background-color: #43a435 !important;
+  color: white !important;
+}
+
+.background-danger {
+  background-color: #c45151 !important;
+  color: white !important;
+}
+
+.background-warning {
+  background-color: #d98b47 !important;
+  color: white !important;
+}
+
+.background-info {
+  background-color: #d5db26 !important;
+  color: white !important;
+}
+
+.background-secondary {
+  background-color: #949494 !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: #007cff !important;
+}
+
+.text-success {
+  color: #43a435 !important;
+}
+
+.text-danger {
+  color: #c45151 !important;
+}
+
+.text-warning {
+  color: #d98b47 !important;
+}
+
+.text-info {
+  color: #d5db26 !important;
+}
+
+.text-secondary {
+  color: #949494 !important;
 }
 
 html body {
@@ -314,6 +364,7 @@ textarea {
   border-radius: 5px;
 }
 
+/** ==== INPUT GROUP ==== **/
 .input-group {
   margin-top: 15px;
   display: flex;

@@ -1,3 +1,18 @@
 .full-width {
   width: 100%;
 }
+
+// create background colors
+@each $key,$val in $colors-list{
+  .background-#{$key} {
+    background-color: #{$val} !important;
+    color: white !important;
+  }
+}
+
+// create text colors
+@each $key,$val in $colors-list{
+  .text-#{$key} {
+    color: $val !important;
+  }
+}

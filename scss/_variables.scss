@@ -3,38 +3,6 @@ $font-main: 'Lato', Helvetica, sans-serif;
 $title-size: 33px;
 $subtitle-size: 22px;
 
-/** ==== COLORS ====**/
-$font-color: rgb(51, 52, 71);
-// theme colors
-
-$background-color: #e0e5ec;
-
-$light-gray: #ededed;
-$purple: #7c6ce3;
-$navbar-primary:#f7f7f7;
-
-// To be removed
-.purple{
-  color: $purple;
-}
-
-// basic colors
-$primary: #007cff;
-$success: #43a435;
-$danger: #c45151;
-$warning: #d98b47;
-$info: #d5db26;
-$secondary: rgb(148, 148, 148);
-
-$colors-list:(
-  primary: $primary,
-  success: $success,
-  danger: $danger,
-  warning: $warning,
-  info: $info,
-  secondary: $secondary,
-);
-
 /** ====  MIXINS ====**/
 @mixin neo {
   background-color: $background-color;

@@ -1,0 +1,30 @@
+/** ==== COLORS ====**/
+
+// Font
+$font-color: rgb(51, 52, 71);
+
+// Basic
+$background-color: #e0e5ec;
+
+$primary: #007cff;
+$success: #43a435;
+$danger: #c45151;
+$warning: #d98b47;
+$info: #d5db26;
+$secondary: rgb(148, 148, 148);
+
+// special
+$purple: #7c6ce3;
+
+$colors-list:(
+  primary: $primary,
+  success: $success,
+  danger: $danger,
+  warning: $warning,
+  info: $info,
+  secondary: $secondary
+);
+
+// Navbar
+$navbar-primary:#f7f7f7;
+
