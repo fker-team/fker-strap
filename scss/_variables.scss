@@ -6,12 +6,16 @@ $subtitle-size: 22px;
 /** ==== COLORS ====**/
 $font-color: rgb(51, 52, 71);
 // theme colors
+
+$background-color: #e0e5ec;
+
 $light-gray: #ededed;
-$purple: rgb(124, 108, 227);
+$purple: #7c6ce3;
+$navbar-primary:#f7f7f7;
 
 // To be removed
 .purple{
-  color: rgb(124, 108, 227);
+  color: $purple;
 }
 
 // basic colors
@@ -20,6 +24,7 @@ $success: #43a435;
 $danger: #c45151;
 $warning: #d98b47;
 $info: #d5db26;
+$secondary: rgb(148, 148, 148);
 
 $colors-list:(
   primary: $primary,
@@ -27,6 +32,13 @@ $colors-list:(
   danger: $danger,
   warning: $warning,
   info: $info,
+  secondary: $secondary,
 );
 
-/** ====  ====**/
+/** ====  MIXINS ====**/
+@mixin neo {
+  background-color: $background-color;
+  box-shadow: 
+    9px 9px 16px rgb(163,177,198,0.6),
+    -9px -9px 16px rgba(255,255,255, 0.5);
+}

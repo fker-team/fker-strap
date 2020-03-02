@@ -7,10 +7,14 @@ body {
   left: 0;
   top: 0;
   font: 100% $font-main;
-  background-color: $light-gray;
+  background-color: $background-color;
 }
 
 * {
   color: $font-color;
   line-height: 1.5;
+}
+
+hr {
+  color: black;
 }

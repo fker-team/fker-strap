@@ -7,11 +7,11 @@
   border: 1px solid #dfdfdf;
   margin: 5px;
   transition: .5s;
+  @include neo;
 }
 .btn:hover{
   cursor: pointer;
   opacity: .8;
-  transition: .5s;
 }
 
 .btn:active{

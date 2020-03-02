@@ -1,10 +1,11 @@
+@charset "UTF-8";
 /** ==== FONTS / Typography====**/
 /** ==== COLORS ====**/
 .purple {
   color: #7c6ce3;
 }
 
-/** ====  ====**/
+/** ====  MIXINS ====**/
 .full-width {
   width: 100%;
 }
@@ -17,12 +18,16 @@ html body {
   left: 0;
   top: 0;
   font: 100% "Lato", Helvetica, sans-serif;
-  background-color: #ededed;
+  background-color: #e0e5ec;
 }
 
 * {
   color: #333447;
   line-height: 1.5;
+}
+
+hr  {
+  color: black;
 }
 
 .btn {
@@ -34,12 +39,13 @@ html body {
   border: 1px solid #dfdfdf;
   margin: 5px;
   transition: 0.5s;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
 }
 
 .btn:hover {
   cursor: pointer;
   opacity: 0.8;
-  transition: 0.5s;
 }
 
 .btn:active {
@@ -72,6 +78,11 @@ html body {
   color: white;
 }
 
+.btn-secondary {
+  background-color: #949494;
+  color: white;
+}
+
 .loader > i {
   padding: 5px 5px;
   /* Some padding */
@@ -100,7 +111,8 @@ html body {
 }
 
 .card {
-  background-color: white;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   padding: 9px 15px 9px 15px;
   margin-bottom: 15px;
@@ -113,7 +125,6 @@ html body {
 }
 
 .card-options {
-  border-top: 1px solid #e8e8e8;
   position: relative;
   bottom: 0;
   margin-top: 15px;
@@ -171,15 +182,17 @@ html body {
 }
 
 nav {
+  background-color: #f7f7f7;
   display: flex;
-  background-color: #191c1c;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
 }
 
 .logo {
   width: 100%;
   padding-left: 1rem;
   font-size: 130%;
-  color: white;
+  color: #333447;
 }
 
 .menu {
@@ -193,12 +206,12 @@ nav {
   text-decoration: none;
   padding: 0 7px 0 7px;
   font-size: 80%;
-  color: #bdbdbd;
+  color: #333447;
   transition: 0.2s;
 }
 
 .menu a:hover {
-  color: white;
+  color: #7c6ce3;
 }
 
 .menu-mobile {
@@ -227,26 +240,84 @@ nav {
     transition: 0.1s;
   }
 }
+/** ==== INPUT ==== **/
 .input {
   font-size: 100%;
   border-radius: 5px;
-  border: 1px solid #d8d4d4;
   padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #c8c8c8;
+}
+
+.input-primary {
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #007cff;
+}
+
+.input-success {
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #43a435;
+}
+
+.input-danger {
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #c45151;
+}
+
+.input-warning {
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #d98b47;
+}
+
+.input-info {
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #d5db26;
+}
+
+.input-secondary {
+  font-size: 100%;
+  border-radius: 5px;
+  padding-left: 7px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border: 1px solid #949494;
 }
 
 input:focus {
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.194);
+  box-shadow: 0 1px 5px rgba(255, 255, 255, 0.194);
 }
 
+/** ==== TEXTAREA ==== **/
 textarea {
-  border: none;
-  overflow: auto;
-  outline: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
-  font-size: 100%;
   border-radius: 5px;
+}
+
+.input-group {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal {
