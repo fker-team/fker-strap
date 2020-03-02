@@ -1,13 +1,14 @@
 nav {
+  background-color: $navbar-primary;
   display: flex;
-  background-color: #191c1c;
+  @include neo;
 }
 
 .logo{
   width: 100%;
   padding-left: 1rem;
   font-size: 130%;
-  color: white;
+  color: $font-color;
 }
 
 // menu big screen
@@ -22,12 +23,12 @@ nav {
   text-decoration: none;
   padding: 0 7px 0 7px;
   font-size: 80%;
-  color: rgb(189, 189, 189);
+  color: $font-color;
   transition: .2s;
 }
 
 .menu a:hover{
-  color: white;
+  color: $purple;
 }
 
 // Mobile menu

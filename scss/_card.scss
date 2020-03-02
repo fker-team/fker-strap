@@ -1,5 +1,6 @@
 .card {
-  background-color: white;
+  // background-color: white;
+  @include neo;
   border-radius: 5px;
   padding: 9px 15px 9px 15px;
   margin-bottom: 15px;
@@ -12,7 +13,7 @@
 }
 
 .card-options {
-  border-top: 1px solid rgb(232, 232, 232);
+  // border-top: 2px solid rgb(210, 210, 210);
   position: relative;
   bottom: 0;
   margin-top: 15px;
