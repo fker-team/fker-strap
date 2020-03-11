@@ -1,5 +1,4 @@
 # F##ker Straper
-
 To compile scss: `sass scss/thefucker.scss css/style.css --watch`
 
 
